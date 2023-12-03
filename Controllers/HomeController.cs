@@ -6,11 +6,11 @@ namespace Final_Project.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<HomeController> log;
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            log = logger;
         }
 
         public IActionResult Index()

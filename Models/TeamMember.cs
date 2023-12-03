@@ -30,5 +30,5 @@ public class FavoriteTeam
     public string Name { get; set; }
     public string Sport { get; set; }
     public string Reason { get; set; }
-    public int FavAthlete { get; set; }
+    public string FavAthlete { get; set; }
 }
